@@ -1,0 +1,13 @@
+{
+    "name": "QCampusmate Mate 4 Class",
+    "description": "View your Course Result on Kyushu University Campusmate faster and smoother. This extension improves the UI and speeds up the response time of is Campusmate counterpart significantly by loading the data to your browser's local storage once off. You can export them as .csv file to viewin Excel/Nubmers/LibreOffice - Calc etc. as well. The feature allowing to do future course planning is coming up in next week.",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}

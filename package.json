@@ -8,7 +8,8 @@
     "lodash": "^4.17.21",
     "vue": "^2.6.14",
     "vue-router": "^3.5.3",
-    "vuex": "^3.6.2"
+    "vuex": "^3.6.2",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.18.7/xlsx-0.18.7.tgz"
   },
   "directories": {
     "lib": "lib"

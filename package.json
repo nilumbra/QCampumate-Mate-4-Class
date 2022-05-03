@@ -1,0 +1,66 @@
+{
+  "name": "qcampumate-mate-4-class",
+  "version": "1.0.0",
+  "description": "\"A chrome extension that enhances your experience of checking course results on Kyushu Universtiy Campusmate\"",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "element-ui": "^2.15.8",
+    "lodash": "^4.17.21",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.3",
+    "vuex": "^3.6.2"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "lint": "eslint --ext .js,.vue --fix ./src",
+    "dev": "webpack --mode==development  --progress --hot --watch",
+    "pack": "webpack --mode=production  --progress",
+    "build": "npm run pack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nilumbra/QCampumate-Mate-4-Class-.git"
+  },
+  "keywords": [
+    "Kyushu University",
+    "Campusmate",
+    "Transcript",
+    "Course",
+    "results"
+  ],
+  "author": "nilumbra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nilumbra/QCampumate-Mate-4-Class-/issues"
+  },
+  "homepage": "https://github.com/nilumbra/QCampumate-Mate-4-Class-#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "archiver": "^5.3.1",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.14.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-html": "^6.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^12.6.0",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-extension-reloader": "^1.1.4"
+  }
+}

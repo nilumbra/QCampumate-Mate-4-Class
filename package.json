@@ -16,7 +16,7 @@
   },
   "scripts": {
     "lint": "eslint --ext .js,.vue --fix ./src",
-    "dev": "webpack --mode==development  --progress --hot --watch",
+    "dev": "webpack --mode=development  --progress --hot --watch",
     "pack": "webpack --mode=production  --progress",
     "build": "npm run pack"
   },

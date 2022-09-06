@@ -43,7 +43,7 @@ function load() {
   // First row is the column header
   [...rows[0].children].map(td => td.textContent).forEach((text, idx) => {tHeadNameMapping[theadNames[idx]] = text;} );
 
-  // Data Structure for final output
+  // the data structure representing a transcript(aka. grade_report)
   var GPAData = {
     tHeadNameMap: tHeadNameMapping,
     categories: [],

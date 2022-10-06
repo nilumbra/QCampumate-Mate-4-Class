@@ -1,4 +1,6 @@
 # QCampusmate Mate for Class
+> This repository will be archived by Oct 12, 2022. Submit all commits to [QCampusmate-Dev-Team/QCampusmate-Mate-4-Class-Dev](https://github.com/QCampusmate-Dev-Team/QCampusmate-Mate-4-Class) instead.
+
 ## Usage
 1. Run `npm run build` to build extension package in `./dist`.
 2. Go to Chrome.
